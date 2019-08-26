@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#854428"
+    android:layout_height="match_parent"
+    tools:context=".SportsActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cricket"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/cricket"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/kabddi"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/cricket"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/kabaddi"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/chess"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/kabddi"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/chess"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/carrom"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/chess"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/carrom"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/tabletenis"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/carrom"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/tabletennis"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/volly"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/tabletenis"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/volley"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/badminton"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/volly"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/minton"/>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+</ScrollView>

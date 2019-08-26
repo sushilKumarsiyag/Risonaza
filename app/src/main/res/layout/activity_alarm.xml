@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmActivity">
+
+    <TextView
+        android:id="@+id/techalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Technical Events(Matrix)"
+        android:padding="5dp"
+        android:background="@drawable/input_design"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TableLayout
+        android:id="@+id/tablealarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/techalarm"
+        android:layout_marginTop="10dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:text="Hackathon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                />
+
+<CheckBox
+    android:id="@+id/hackcheck"
+    android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:text="Code Strike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                />
+
+            <CheckBox
+                android:id="@+id/codecheck"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:text="Technical Quiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                />
+
+            <CheckBox
+                android:id="@+id/Quizcheck"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:text="Grafico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                />
+
+            <CheckBox
+                android:id="@+id/graficocheck"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+
+<Button
+    android:id="@+id/setalarmbutton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tablealarm"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="15dp"
+    android:text="Set Remainder"
+    android:background="@drawable/buttons"
+    android:textColor="@android:color/white"/>
+</RelativeLayout>

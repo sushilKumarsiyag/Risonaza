@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#854428"
+    tools:context=".TechActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/hackthone"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/hackathon"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/techquiz"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/hackthone"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/quiz"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/codestrike"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/techquiz"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/codestrike"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/grafico"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/codestrike"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/rsz_grafico2"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/battle"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/grafico"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/battle"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bridge"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/battle"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/bridge"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/smart"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/bridge"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/smart"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/snapit"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/smart"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/snapit"/>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/struct"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@id/snapit"
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:src="@drawable/struct"/>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>

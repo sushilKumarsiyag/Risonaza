@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SportsSchedualActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBarlist"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="188dp"
+        android:clickable="false"
+        android:elevation="@dimen/activity_horizontal_margin"
+        android:focusable="true"
+
+        android:focusedByDefault="true"
+        android:max="100"
+        android:visibility="invisible" />
+
+
+    <ListView
+        android:id="@+id/implist"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</RelativeLayout>

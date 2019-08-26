@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "982110329292",
+    "firebase_url": "https://risonaza.firebaseio.com",
+    "project_id": "risonaza",
+    "storage_bucket": "risonaza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982110329292:android:1569c5927a241bf9",
+        "android_client_info": {
+          "package_name": "com.risonaza.os.risonaza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982110329292-055f90tlinacm61j9oql44herngfr7ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.risonaza.os.risonaza",
+            "certificate_hash": "be31697719e11b53e31795f031d62f8a7f8c88a7"
+          }
+        },
+        {
+          "client_id": "982110329292-ev1lt7uh21g5gfrtac8t1k0o5iv7m14g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq0xJa4Y3S2JxKQad7lRWrMdnvuCuuJYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982110329292-ev1lt7uh21g5gfrtac8t1k0o5iv7m14g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
